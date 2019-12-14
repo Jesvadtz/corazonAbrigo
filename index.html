@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./home.css">
     <title>Corazón Abrigo</title>
 </head>
@@ -17,16 +18,16 @@
 
     <!-- MENÚ FIJO -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Corazón Abrigo</a>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
+            <a class="navbar-brand" href="#"><img class="navCustomLogo ml-2" src="./img/imagotipo-CA.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" src="."">
+                    <li class=" nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">¿Qué?</a>
@@ -47,7 +48,58 @@
 
     <!-- DESCRIPCIÓN DE PROYECTO -->
     <main>
-        <section>
+        <section class="container">
+            <article class="row justify-content-center mt-5">
+                <img class="logoCustom mt-5" src="./img/logo-CA.svg" alt="logo Corazón Abierto">
+                <p class="col-10 col-md-12 text-center mt-3 textCustom mt-md-5">Lorem ipsum dolor sit amet consectetur
+                    adipiscing
+                    elit
+                    litora et,
+                    etiam a
+                    risus nisl
+                    libero nec
+                    congue lacus placerat, lectus proin hac orci habitant eleifend auctor arcu. Integer ultrices
+                    habitasse mollis iaculis nostra morbi bibendum scelerisque ut, condimentum montes lobortis fermentum
+                    felis mus dis imperdiet, potenti tristique cras tellus aliquam vehicula id eget.</p>
+            </article>
+        </section>
+        <div class="titulo text-center mt-3 mb-4">¿Cómo puedo donar?</div>
+        <section class="container d-md-flex justify-content-md-center align-items-md-start">
+            <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                <div class="col-2 text-center vineta">
+                    <p class="vinetaNumber">1</p>
+                </div>
+                <div class="textCustom col-8 col-md-9 mt-md-4 text-md-center">Selecciona la ropa que desees
+                    donar,
+                    deberá estar
+                    en buen estado y limpia.</div>
+            </article>
+            <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                <div class="col-2 text-center vineta">
+                    <p class="vinetaNumber">2</p>
+                </div>
+                <div class="textCustom col-8 col-md-9 mt-md-4 text-md-center">Ubica alguno de nuestros centros de
+                    acopio
+                    para
+                    llevar la ropa o solicita una recolección a tu domilicio y nosotros nos encargamos de recoger tu
+                    donación. </div>
+            </article>
+            <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                <div class="col-2 text-center vineta">
+                    <p class="vinetaNumber">3</p>
+                </div>
+                <div class="textCustom col-8 col-md-9 mt-md-4 text-md-center">Corazón Abrigo se encargará de llevar tu
+                    donación a
+                    las comunidades que más lo necesiten en México.</div>
+            </article>
+            <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                <div class="col-2 text-center vineta">
+                    <p class="vinetaNumber">4</p>
+                </div>
+                <div class="textCustom col-8 col-md-9 mt-md-4 text-md-center">Te haremos llegar por correo electrónico
+                    fotos de
+                    como tu aportación abrigó a quien más lo necesita.</div>
+            </article>
 
         </section>
     </main>

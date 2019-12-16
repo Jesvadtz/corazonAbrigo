@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./home.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/home.css">
     <title>Corazón Abrigo</title>
 </head>
 
@@ -17,43 +18,109 @@
 
     <!-- MENÚ FIJO -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Corazón Abrigo</a>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
+            <a class="navbar-brand" href="#"><img class="navCustomLogo ml-2" src="./img/imagotipo-CA.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" src="."">
+                    <li class=" nav-item active">
+                    <a class="nav-link " href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Qué?</a>
+                        <a class="nav-link" href="./pages/que.html">¿Qué?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Dónde?</a>
+                        <a class="nav-link" href="./pages/donde.html">¿Dónde?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resultados</a>
+                        <a class="nav-link" href="./pages/resultados.html">Resultados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <img class="backCustom mt-5" src="./img/ca-01.jpg" alt="personas donando">
     </header>
 
     <!-- DESCRIPCIÓN DE PROYECTO -->
     <main>
-        <section>
 
+        <section class="container">
+            <article class="row justify-content-center mt-4">
+                <img class="logoCustom" src="./img/logo-CA.svg" alt="logo Corazón Abierto">
+                <p class="col-sm-10 col-md-12  text-center mt-3 textCustom2 mt-md-4">Lorem ipsum dolor sit amet
+                    consectetur
+                    adipiscing
+                    elit
+                    litora et,
+                    etiam a
+                    risus nisl
+                    libero nec
+                    congue lacus placerat, lectus proin hac orci habitant eleifend auctor arcu. Integer ultrices
+                    habitasse mollis iaculis nostra morbi bibendum scelerisque ut, condimentum montes lobortis fermentum
+                    felis mus dis imperdiet, potenti tristique cras tellus aliquam vehicula id eget.</p>
+            </article>
         </section>
+
+        <!-- PASOS PARA DONAR -->
+
+        <div class="titulo text-center mt-3 mb-4">¿Cómo puedo donar?</div>
+
+        <div class="d-xl-flex col-xl-12 justify-content-xl-around mb-5">
+            <section
+                class="container col-md-12 d-md-flex justify-content-md-center justify-content-xl-around align-items-md-start col-xl-6">
+                <article class="row articleCustom justify-content-center flex-md-column align-items-center mt-4">
+                    <div class="col-2 text-center vineta">
+                        <img class="vinetaNumber" src="./img/fashion.svg" alt="ícono de ropa limpia">
+                    </div>
+                    <div class="textCustom col-8 col-md-12 mt-md-4 text-md-center">¿Tienes ropa que ya no utilizas?
+                        ¡Perfecto! Ahora puedes ayudar a donarla a Corazón Abrigo y nosotros nos encargamos del resto.
+                    </div>
+                </article>
+                <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                    <div class="col-2 text-center vineta">
+                        <img class="vinetaNumber" src="./img/shipping.svg" alt="ícono de recolección">
+                    </div>
+                    <div class="textCustom col-8 col-md-12 mt-md-4 text-md-center">Ubica alguno de nuestros centros
+                        de
+                        acopio
+                        para
+                        llevar la ropa o solicita una recolección a tu domilicio y nosotros nos encargamos de
+                        recoger tu
+                        donación. </div>
+                </article>
+            </section>
+            <section
+                class="container col-md-12 d-md-flex justify-content-md-center justify-content-xl-around align-items-md-start col-xl-6">
+                <article class="row articleCustom justify-content-center flex-md-column align-items-center mt-4">
+                    <div class="col-2 text-center vineta">
+                        <img class="vinetaNumber" src="./img/protect.svg" alt="ícono de donación">
+                    </div>
+                    <div class="textCustom col-8 col-md-12 mt-md-4 text-md-center">Corazón Abrigo se encargará de llevar
+                        tu donación a las comunidades que más lo necesitan.</div>
+                </article>
+                <article class="articleCustom row justify-content-center flex-md-column align-items-center mt-4">
+                    <div class="col-2 text-center vineta">
+                        <img class="vinetaNumber" src="./img/happiness.svg" alt="ícono de personas ayudadas">
+                    </div>
+                    <div class="textCustom col-8 col-md-12 mt-md-4 text-md-center">Ubica alguno de nuestros centros
+                        de
+                        acopio
+                        para
+                        llevar la ropa o solicita una recolección a tu domilicio y nosotros nos encargamos de
+                        recoger tu
+                        donación. </div>
+                </article>
+            </section>
+
+
+        </div>
     </main>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

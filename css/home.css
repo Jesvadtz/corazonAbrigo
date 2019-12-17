@@ -2,13 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .navCustom {
-    font-weight: bold;
-} */
-
 .navbarCustom {
     background-color: #F3997B;
-
 }
 
 .navCustomLogo {
@@ -19,13 +14,22 @@ body {
     width: 180px;
 }
 
+.textCustom2 {
+    font-size: 18px;
+}
+
 .textCustom {
     font-size: 14px;
+    margin-top: 20px;
 }
 
 .titulo {
     font-weight: bold;
     font-size: 20px;
+}
+
+.meta {
+    background-color: #d7f0f7;
 }
 
 @media screen and (min-width: 768px) {
@@ -35,7 +39,7 @@ body {
     }
 
     .textCustom2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .logoCustom {

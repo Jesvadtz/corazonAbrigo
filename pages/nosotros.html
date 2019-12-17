@@ -9,7 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./somos.css">
+  <link rel="stylesheet" href="../css/nosotros.css">
+  <link rel="stylesheet" href="../css/home.css">
   <title>Corazón Abrigo</title>
 
 </head>
@@ -17,28 +18,28 @@
 <body>
   <header>
     <!---navbar--->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Corazón Abrigo</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
+      <a class="navbar-brand" href="#"><img class="navCustomLogo ml-2" src="../img/imagotipo-CA.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav" src="."">
+              <li class=" nav-item">
+          <a class="nav-link " href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/que.html">¿Qué?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/donde.html">¿Dónde?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/resultados.html">Resultados</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">¿Qué?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">¿Dónde?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resultados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -50,7 +51,7 @@
     <div class="container teamcorazon animated fadeIn mt-5 mb-2">
       <div class="row members" id="corazonteam">
         <div class="col-md-4 team">
-          <div class="img"><img class="img-fluid img-thumbnail" src="Assets/img/team/karr.jpg" alt="star member">
+          <div class="img"><img class="img-fluid img-thumbnail" src="../img/nosotros/karr.jpg" alt="star member">
             <div class="layer">
               <div class="row mx-0 h-100">
                 <div class="col-10 m-auto text-center">
@@ -63,7 +64,7 @@
           </div>
         </div>
         <div class="col-md-4 team">
-          <div class="img"><img class="img-fluid img-thumbnail" src="Assets/img/team/jess.jpg" alt="star member">
+          <div class="img"><img class="img-fluid img-thumbnail" src="../img/nosotros/jess.jpg" alt="star member">
             <div class="layer">
               <div class="row mx-0 h-100">
                 <div class="col-10 m-auto text-center">
@@ -76,7 +77,7 @@
           </div>
         </div>
         <div class="col-md-4 team">
-          <div class="img"><img class="img-fluid img-thumbnail" src="Assets/img/team/cerdi.jpg" alt="star member">
+          <div class="img"><img class="img-fluid img-thumbnail" src="../img/nosotros/cerdi.jpg" alt="star member">
             <div class="layer">
               <div class="row mx-0 h-100">
                 <div class="col-10 m-auto text-center">
@@ -121,7 +122,7 @@
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>

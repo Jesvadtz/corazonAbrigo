@@ -1,35 +1,65 @@
-.customCarousel{
+.customCarousel {
     width: 100%;
     height: 50vh;
-    padding: 4px;
+    padding: 2px;
+    padding-top: 2vh;
+    margin-top: 2vh;
     object-fit: cover;
 }
 
-@media only screen and (min-width: 600px) {
-    .customCarousel{
-    
-    width: 95%;
-    height: 100vh;
-    padding-left: 38px;
-       
+@media only screen and (min-width: 700px) {
+    .customCarousel {
+
+        width: 95%;
+        height: 75vh;
+        padding-inline-start: 25px;
+        padding-top: 3vh;
+        margin-top: 2vh;
+
     }
 
 
-  }
-  
-  
+}
+
+
+
+
+
 main {
-    font-family: Arial;
+    font-family: 'Montserrat';
     padding: 25px;
     background-color: white;
-    color: #f78282;
-        text-align: center;	
-  }
-  
+    color: #444483;
+    text-align: center;
+}
 
-  
- .containter, .row {padding-top: 4px;}
-  .counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
-  .count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-  .count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
-  .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+
+.containter,
+.row {
+    padding-bottom: 4px;
+}
+
+.counter {
+    height: 20vh;
+    background-color: #fae3e3;
+    padding: 20px 0;
+    border-radius: 5px;
+    padding-bottom: 40vh;
+}
+
+.count-title {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 5px;
+    ;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-bottom: 40vh;
+    text-align: center;
+}

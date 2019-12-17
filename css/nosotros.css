@@ -70,8 +70,10 @@
 
 .weare h3,
 .weare h4 {
-    color: #f3f1ef;
-    margin-bottom: 0
+    color: #444483;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+
 }
 
 .weare h3 {
@@ -80,12 +82,12 @@
 
 .weare small,
 .weare span {
-    color: #868686
+    color: rgb(250, 102, 122)
 }
 
 
 .pink {
-    background-color: rgb(248, 203, 186);
+    background-color: rgb(251, 234, 227);
 }
 
 .footer a,
@@ -99,10 +101,12 @@
     color: #b1b1b1;
     letter-spacing: .5px;
     z-index: 100;
-    position: relative
+    position: relative;
+    font-family: 'Montserrat';
 }
 
 .footer a {
     color: #f7b7bd;
-    font-weight: 600
+    font-weight: 600;
+    font-family: 'Montserrat';
 }

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbarCustom {
+    background-color: #F3997B;
+}
+
+.navCustomLogo {
+    width: 40px;
+}
+
+.textCustom {
+    font-size: 14px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imgCustom {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+
+}
+
+.vineta {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 10px;
+    background-color: #F3997B;
+    box-shadow: 7px 7px 23px -9px rgba(112, 112, 112, 0.75);
+}
+
+.secCustom {
+    background-color: rgba(243, 153, 123, 0.221);
+    width: 100%;
+}
+
+.clasCustom {
+    font-size: 12px;
+}
+
+.listCustom {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+
+}
+
+.list-group-item.active {
+    background-color: #F3997B;
+    border-color: #F3997B;
+}
+
+@media screen and (min-width: 768px) {
+    .textCustom {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .logoCustom {
+        width: 240px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .articleCustom {
+        margin: 0;
+        padding: 0;
+    }
+
+    .imgCustom {
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .espacio {
+        height: 70px;
+    }
+
+    .secCustom {
+        height: 50vh;
+    }
+
+    .sec {
+        height: 50vh;
+    }
+
+    .vineta {
+        width: 120px;
+        height: 120px;
+    }
+}

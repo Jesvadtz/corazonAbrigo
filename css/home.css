@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navCustom {
+    font-weight: bold;
+} */
+
+.navbarCustom {
+    background-color: #F3997B;
+
+}
+
+.navCustomLogo {
+    width: 40px;
+}
+
+.logoCustom {
+    width: 180px;
+}
+
+.textCustom {
+    font-size: 14px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .textCustom {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .textCustom2 {
+        font-size: 18px;
+    }
+
+    .logoCustom {
+        width: 240px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .vineta {
+        padding: 0;
+    }
+
+    .articleCustom {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.vinetaNumber {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0;
+    background-color: #F3997B;
+}
+
+.backCustom {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}

@@ -19,18 +19,19 @@
     <!-- MENÚ FIJO -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
-            <a class="navbar-brand" href="#"><img class="navCustomLogo ml-2" src="../img/imagotipo-CA.svg" alt=""></a>
+            <a class="navbar-brand" href="#"><img class="navCustomLogo ml-2" src="../img/que/imagotipo-CA.svg"
+                    alt="imagotipo Corazón Abrigo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav" src="."">
-                    <li class=" nav-item active">
-                    <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav" src=".">
+                    <li class=" nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Qué?</a>
+                        <a class="nav-link active" href="#">¿Qué?<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/donde.html">¿Dónde?</a>
@@ -44,42 +45,58 @@
                 </ul>
             </div>
         </nav>
+        <img class="imgCustom mt-5 d-lg-none" src="../img/que/ca-02.jpg" alt="Personas Donando">
     </header>
 
     <!-- QUÉ PUEDO DONAR -->
     <main>
-        <section>
-            <img class="imgCustom mt-5" src="../img/ca-02.jpg" alt="Personas Donando">
-            <div class="titulo text-center mt-3">¿Qué puedo donar?</div>
-        </section>
-        <section class="container">
-            <article class="row justify-content-center align-items-center mt-3">
-                <div class="col-3">
-                    <img class="vineta" src="../img/ropa.svg" alt="ícono de ropa en buen estado">
-                </div>
-                <div class="textCustom col-7">ROPA EN BUEN ESTADO<br>Se trata de ayudar,
-                    no
-                    de deshacernos de ropa innutilizable : )</div>
-            </article>
-        </section>
-        <section class="container">
-            <article class="row justify-content-center align-items-center mt-3">
-                <div class="col-3">
-                    <img class="vineta" src="../img/clean.svg" alt="ícono de ropa limpia">
-                </div>
-                <div class="textCustom col-7">ROPA LIMPIA<br>Aseegúrate de que todas tus prendas estén lavadas.</div>
-            </article>
-        </section>
-        <section class="container secCustom mt-4 pb-5">
+        <div class="sec">
+            <section>
+                <div class="espacio d-block"></div>
+                <div class="titulo text-center mt-4">¿Qué puedo donar?</div>
+            </section>
+            <div class="ml-auto mr-auto d-lg-flex col-lg-8 col-xl-6 mt-lg-4">
+                <section class="container">
+                    <article class="row d-flex justify-content-center mt-3 flex-lg-column align-items-lg-center">
+                        <div
+                            class="col-5 col-md-3 d-flex justify-content-center align-items-center justify-content-md-center">
+                            <img class="vineta" src="../img/que/ropa.svg" alt="ícono de ropa en buen estado">
+                        </div>
+                        <div class="textCustom col-7 col-lg-10 mt-lg-4 text-lg-center">
+                            <strong>ROPA EN BUEN ESTADO</strong><br>Se trata de ayudar,
+                            no
+                            de deshacernos de ropa innutilizable : )</div>
+                    </article>
+                </section>
+                <section class="container">
+                    <article class="row d-flex justify-content-center mt-3 flex-lg-column align-items-lg-center">
+                        <div class="col-5 col-md-3 d-flex justify-content-center align-items-center">
+                            <img class="vineta" src="../img/que/clean.svg" alt="ícono de ropa limpia">
+                        </div>
+                        <div class="textCustom col-7 col-lg-10 mt-lg-4 text-lg-center"><strong>ROPA
+                                LIMPIA</strong><br>Asegúrate de que
+                            todas
+                            tus prendas
+                            estén
+                            lavadas.
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+
+        <!-- CLASIFICACIÓN DE ROPA -->
+
+        <section class="container secCustom mt-4 pb-5 col-12">
             <div class="row justify-content-center text-center mt-3">
-                <p class="titulo mt-4">Clasificación de ropa</p>
-                <p class="textCustom col-11 ">Nos puedes ayudar a clasificar la ropa por género, para
+                <p class="titulo col-md-8 mt-4">Clasificación de ropa</p>
+                <p class="textCustom col-11 col-md-7 col-xl-6">Nos puedes ayudar a clasificar la ropa por género, para
                     que sea más fácil para todos
                     poder determinar
                     para quien sería la donación ideal. Te damos algunos ejemplos de como podrías seleccionarla: </p>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-4">
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-3 col-lg-2">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="botonCustom list-group-item list-group-item-action active" id="list-home-list"
                             data-toggle="list" href="#list-home" role="tab" aria-controls="home">Mujeres</a>
@@ -91,7 +108,7 @@
                             data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Otros</a>
                     </div>
                 </div>
-                <div class="col-6 listCustom">
+                <div class="col-6 col-md-4 col-lg-3 listCustom">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                             aria-labelledby="list-home-list">
@@ -131,18 +148,8 @@
                     </div>
                 </div>
             </div>
-
-
-
         </section>
-
-
-
-
     </main>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

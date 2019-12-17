@@ -1,0 +1,16 @@
+.cardCentroAcopio {
+  margin: 15px auto;
+}
+
+.vinetaDonde {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 0;
+  background-color: #F3997B;
+}
+
+main {
+  margin-top: 80px;
+}

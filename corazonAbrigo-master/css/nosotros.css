@@ -1,0 +1,116 @@
+.navbarCustom{
+    height: 7vh
+}
+.teamcorazon .team {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .4s linear
+}
+
+.teamcorazon .team .img {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%
+}
+
+.teamcorazon .team .img .layer,
+.teamcorazon .team .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.teamcorazon .team .img img {
+    object-fit: cover;
+    transition: all .4s linear
+}
+
+.teamcorazon .team .img .layer {
+    opacity: 0;
+    background: rgba(0, 0, 0, .74);
+    color: #fff;
+    transition: all .4s ease-out;
+
+}
+
+.teamcorazon .team .img .layer .network {
+    color: rgb(250, 102, 122)
+}
+
+.teamcorazon .team .img .layer .desc {
+    color: #f2f2f2
+}
+
+.teamcorazon .team:hover img {
+    display: block;
+    filter: gray;
+    filter: blur(3px) grayscale(90%);
+
+}
+
+.teamcorazon .team:hover .layer {
+    display: block;
+    -webkit-animation: fadein .4s linear;
+    -moz-animation: fadein .4s linear;
+    animation: fadein .4s linear;
+    opacity: 1
+}
+
+.switchteam {
+    cursor: pointer
+}
+
+.weare {
+    padding-top: 3em;
+    padding-bottom: 3em
+    
+}
+
+.weare h3,
+.weare h4 {
+    color: #444483;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+   
+}
+
+.weare h3 {
+    padding-bottom: 1em
+}
+
+.weare small,
+.weare span {
+    color: rgb(250, 102, 122)
+}
+
+
+.pink {
+    background-color: rgb(251, 234, 227);
+}
+
+.footer a,
+.footer p {
+    margin-bottom: 0
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #b1b1b1;
+    letter-spacing: .5px;
+    z-index: 100;
+    position: relative;
+    font-family: 'Montserrat';
+}
+
+.footer a {
+    color: #f7b7bd;
+    font-weight: 600;
+    font-family:'Montserrat';
+}
